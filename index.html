@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>MapItemQuiz.fi - The Game</title>
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="w3-theme-red.css">
+<style>
+  .w3-bold {font-weight: bold}
+</style>
+</head>
+<body>
+
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <div class="w3-center">
+  <h4 class="w3-wide">KARTTAKOHDEVISA</h4>
+  <h1 class="w3-xxxlarge w3-wide w3-animate-top">MAP ITEM QUIZ .FI</h1>
+    <div class="w3-padding-32">
+      <a class="w3-btn w3-xlarge w3-theme-dark w3-hover-red" href="game.html" style="font-weight:900;">PELAA TÄSTÄ</a>
+    </div>
+  </div>
+</header>
+
+<div class="w3-container">
+  <div class="w3-center">
+    <h1>Peliohjeet:</h1>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-center">
+<div class="w3-quarter">
+  <div class="w3-card w3-container" style="min-height:350px">
+    <h3>Bussireitit</h3><br>
+    <p>Pelissä täytyy tietää valitun bussireitin kaikki pysäkit. Järjestyksellä ei ole väliä kunhan kaikki tulevat lopulta valittua.</p>
+    <p>Oikeasta (vihreästä) vastauksesta saa pluspisteitä ja väärästä (punaisesta) vastauksesta saa miinuspisteitä. Peli päättyy kun kaikki pysäkit on löydetty. Lopullinen pistesaldo plussineen ja miinuksineen näytetään myös prosentteina.</p>
+    <p>Peli arpoo kartalle oikeiden pysäkkien lisäksi noin 100 väärää pysäkkiä kaikkien pysäkkien joukosta.</p>
+  </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="w3-card w3-container" style="min-height:350px">
+    <h3>Tiestö</h3><br>
+    <p>Pelissä täytyy tietää tärkeimmät ja isoimmat tiet valitulta alueelta.</p>
+    <p>Oikeasta vastauksesta saa pisteen. Peli päättyy enintään 30 kysymyksen jälkeen. Poikkeuksena se, jos valittu alue on niin pieni, että siellä on alle 30 merkittävänä pidettävää tietä. Siinä tapauksessa peli kysyy kaikki mahdolliset tiet alueelta.</p>
+    <p>Vastausta ei kannata painaa risteyksen kohdalta, koska peli (tai kukaan) ei osaa tulkita kumpaa risteävää tietä tarkoitetaan.</p>
+  </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="w3-card w3-container" style="min-height:350px">
+    <h3>Kaupunginosat</h3><br>
+    <p>Pelissä täytyy osata sijoittaa kartalle kaupunginosat.</p>
+    <p>Oikeasta vastauksesta saa pisteen. Peli päättyy kun 15 tehtävään arvottua kaupunginosaa on kysytty.</p>
+  </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="w3-card w3-container" style="min-height:350px">
+    <h3>Kunnat</h3><br>
+    <p>Pelissä täytyy osata sijoittaa kartalle kunnat.</p>
+    <p>Oikeasta vastauksesta saa pisteen. Peli päättyy kun 15 tehtävään arvottua kuntaa on kysytty.</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-center">
+    <h1>Kiitokset:</h1>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-center">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:300px">
+    <h3>Kartta ja muu data</h3><br>
+    <p>Karttadata: <a class="w3-bold" href="https://www.OpenStreetMap.org">OpenStreetMap.org</a></p>
+    <p>FÖLI-aikatauludata: <a class="w3-bold" href="https://data.foli.fi">data.foli.fi</a></p>
+    <p>HSL avoin data: <a class="w3-bold" href="https://www.hsl.fi/hsl/avoin-data">HSL avoin data</a></p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:300px">
+    <h3>Taustaohjelmisto</h3><br>
+    <p>Karttatiilien parsinta: <a class="w3-bold" href="https://github.com/maptiler/tileserver-php">tileserver-php</a></p>
+    <p>Karttadatan rajaaminen: <a class="w3-bold" href="https://gdal.org/en/latest/programs/ogr2ogr.html">OGR2OGR</a></p>
+    <p>Pohjakartan muunnos: <a class="w3-bold" href="https://tilemaker.org">Tilemaker</a></p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:300px">
+    <h3>Käyttöliittymä</h3><br>
+    <p>Kartan piirto: <a class="w3-bold" href="https://www.Leafletjs.com">Leaflet</a></p>
+    <p>Karttatiilien parsinta: <a class="w3-bold" href="https://github.com/Leaflet/Leaflet.VectorGrid">VectorGrid</a></p>
+    <p>Karttadatan parsinta: <a class="w3-bold" href="https://github.com/ngageoint/geopackage-js">geopackage-js</a></p>
+    <p>Etusivun muotoilu: <a class="w3-bold" href="https://www.w3schools.com/w3css/">W3.CSS</a></p>
+  </div>
+</div>
+</div>
+
+<footer class="w3-container w3-margin-top w3-theme-dark">
+  <h3>MapItemQuiz.fi</h3>
+  <p>Powered by awesome free and open source softwares listed above and about 800 lines of own code. <a href="https://customers.xetnet.fi/aff.php?aff=144"><b>Webhotel by XetNet.fi</b></a></p>
+  <p>Copyright &copy; 2024, Juha-Pekka Varjonen, jpvarjonen@gmail.com</p>
+</footer>
+
+</body>
+</html>
